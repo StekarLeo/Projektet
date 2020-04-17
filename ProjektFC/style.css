@@ -1,0 +1,90 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #E1BB80;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    left: 50%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 50px;
+    letter-spacing: -2px
+}
+
+.mainpage-header {
+    grid-column: 1 / -1;
+    padding-bottom: 20px;
+}
+
+/* Märkenfönstret */
+.markengrid {
+    padding-left: 30px;
+    display: grid;
+}
+
+.marken {
+    height: 50px;
+    border: 5px solid #352208;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px; 
+    text-align: center;
+}
+
+.prada, .lv, .gucci, .dior {
+    display: grid;
+    height: 100px;
+    border: 2px solid #352208;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px; 
+    text-align: center;
+    margin-top: 20px;
+    align-content: center;
+}
+
+/* Designfönstret */
+.designgrid {
+    padding-right: 30px;
+    display: grid;
+}
+
+.design {
+    height: 50px;
+    border: 5px solid #352208;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;   
+    text-align: center;
+}
+
+.stella, .rei, .virgil, .amcq{
+    display: grid;
+    height: 100px;
+    border: 2px solid #352208;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px; 
+    text-align: center;
+    margin-top: 20px;
+    align-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    background-color: #352208;
+}
