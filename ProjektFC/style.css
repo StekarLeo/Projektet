@@ -11,6 +11,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 50px;
+    min-height: 100vh;
 }
 
 .mainpage-header {
@@ -27,7 +28,8 @@ header {
     margin: auto;
     margin-top: 20px;
     font-size: 50px;
-    letter-spacing: -2px
+    letter-spacing: 3px;
+    padding-bottom: 20px;
 }
 
 .mainpage-header {
@@ -85,15 +87,18 @@ header {
     align-content: center;
 }
 
+/* Footer */
+footer{
+    margin-top: 20px;
+    height: 100px;
+    background-color: #806443;
+    grid-column: 1 / -1;
+    padding-top: 10px;
+    border-top: 2px black solid;
+}
+
+/* Annat */ 
 a {
     text-decoration: none;
     color: black;
 }
-
-footer{
-    margin-top: 20px;
-    height: auto;
-    background-color: #352208;
-}
-
-
