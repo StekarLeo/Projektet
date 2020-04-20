@@ -16,7 +16,6 @@ body {
 
 .mainpage-header {
     grid-column: 1 / -1;
-    padding-bottom: 20px;
 }
 
 /* Header */
