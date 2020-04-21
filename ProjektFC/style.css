@@ -21,7 +21,6 @@ body {
 /* Header */
 
 header {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     left: 50%;
     margin: auto;
@@ -100,4 +99,26 @@ footer{
 a {
     text-decoration: none;
     color: black;
+}
+
+/* Mini headers */
+
+.mheader{
+    text-align: center;
+    left: 50%;
+    margin: auto;
+    grid-column: 1 / -1;
+}
+
+/* Lådor */ 
+
+.factbox{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: grid;
+    text-align: center;
 }
