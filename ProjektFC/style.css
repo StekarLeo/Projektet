@@ -43,7 +43,7 @@ header {
 
 .marken {
     height: 50px;
-    border: 5px solid #352208;
+    border: 5px solid black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px; 
     text-align: center;
@@ -52,7 +52,7 @@ header {
 .prada, .lv, .gucci, .dior {
     display: grid;
     height: 100px;
-    border: 2px solid #352208;
+    border: 2px solid black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px; 
     text-align: center;
@@ -68,7 +68,7 @@ header {
 
 .design {
     height: 50px;
-    border: 5px solid #352208;
+    border: 5px solid black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;   
     text-align: center;
@@ -77,7 +77,7 @@ header {
 .stella, .rei, .virgil, .amcq{
     display: grid;
     height: 100px;
-    border: 2px solid #352208;
+    border: 2px solid black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px; 
     text-align: center;
@@ -87,11 +87,16 @@ header {
 
 /* Footer */
 footer{
-    margin-top: 20px;
-    height: 100px;
-    background-color: #806443;
-    grid-column: 1 / -1;
+    margin-top: 40px;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
     padding-top: 10px;
+    
+    background-color: #806443;
     border-top: 2px black solid;
 }
 
@@ -115,10 +120,39 @@ a {
 .factbox{
     width: 400px;
     height: 400px;
+    
     border: 1px solid black;
+    
     float: right;
+    
     margin-top: 20px;
     margin-right: 20px;
-    display: grid;
+
     text-align: center;
+}
+
+.factbox h1{
+    margin: 0;
+}
+
+.factbox p:first-of-type {
+    margin-top: 10px;
+}
+
+.textbox {
+    width: 900px;
+    height: 400px;
+
+    border: 1px solid black;
+
+    float: left;
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    text-align: center;
+}
+
+.textbox h1{
+    margin: 0;
 }
