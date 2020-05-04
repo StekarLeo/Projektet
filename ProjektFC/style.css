@@ -87,14 +87,10 @@ header {
 
 /* Footer */
 footer{
-    margin-top: 40px;
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    
+    margin-top: 25px;
     padding-top: 10px;
+    
+    grid-column: 1 / -1;
     
     background-color: #806443;
     border-top: 2px black solid;
@@ -142,6 +138,7 @@ a {
 .textbox {
     width: 900px;
     height: 400px;
+    position: fixed;
 
     border: 1px solid black;
 
@@ -150,9 +147,11 @@ a {
     margin-top: 20px;
     margin-left: 20px;
 
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
 }
 
 .textbox h1{
     margin: 0;
+    text-align: center;
 }
