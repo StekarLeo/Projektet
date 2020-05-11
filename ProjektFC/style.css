@@ -86,15 +86,30 @@ header {
 }
 
 /* Footer */
-footer{
-    margin-top: 25px;
-    padding-top: 10px;
-    
-    grid-column: 1 / -1;
-    
-    background-color: #806443;
-    border-top: 2px black solid;
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+
+    background-color: orange;
 }
+
+footer div {
+    border: 1px solid #000;
+}
+
+.left {
+    justify-self: start;
+}
+
+.center  {
+    justify-self: center;
+}
+
+.right {
+    justify-self: end;
+}
+
 
 /* Annat */ 
 a {
