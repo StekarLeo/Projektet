@@ -91,11 +91,13 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
 
-    background-color: orange;
+    background-color: #806443;
+    grid-column: 1/-1;
+    margin-top: 20px;
 }
 
 footer div {
-    border: 1px solid #000;
+    border: 1px solid transparent;
 }
 
 .left {
