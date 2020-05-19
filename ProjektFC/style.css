@@ -177,3 +177,11 @@ a {
     margin: 0;
     text-align: center;
 }
+
+.faq {
+    border: 1px solid black;
+    height: 80vh;
+    width: 1fr;
+    
+    font-size: 1.5rem;
+}
